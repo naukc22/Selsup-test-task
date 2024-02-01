@@ -168,10 +168,8 @@ public class CrptApi {
                 .build();
         CrptApi crptApi = new CrptApi(TimeUnit.SECONDS, 2);
 
-        while (true) {
-            crptApi.createDocument(document, "podpis");
-        }
-
+            crptApi.createDocument(document, "sub");
+        
     }
     }
 
